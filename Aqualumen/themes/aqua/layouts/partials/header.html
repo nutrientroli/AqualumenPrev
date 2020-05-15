@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {{ partial "head.html" . }}
+    
+    {{ if .IsHome }}
+    <title>{{ .Site.Title }}</title>
+    {{ else }}
+    <title>{{ .Site.Title }} - {{ .Title }}</title>
+    {{ end }}
+</head>
+<body>

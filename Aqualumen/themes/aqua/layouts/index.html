@@ -1,0 +1,69 @@
+{{ partial "header.html" . }}
+    {{ partial "navbar.html" . }}
+    <main role="main">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-fluid mx-auto d-block" src="{{ .Params.banner.image }}" width="75%">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>{{ .Params.banner.title }}</h1>
+                        <p class="sub-title">{{ .Params.banner.subtitle }}</p>
+                        <p class="text-title"><strong>{{ .Params.banner.text1_1 }}</strong>{{ .Params.banner.text1_2 }}</p>
+                        <p class="text-title"><strong>{{ .Params.banner.text2_1 }}</strong>{{ .Params.banner.text2_2 }}</p>
+                        <p class="text-title"><strong>{{ .Params.banner.text3_1 }}</strong>{{ .Params.banner.text3_2 }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--services-->
+        <div class="container cont1">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="featurette-heading">{{ .Params.section1.title }}</h2>
+                    <p class="">{{ .Params.section1.text }}</p>
+                    <p class="action-text">{{ .Params.section1.action1 }}</p>
+                    <p class="">{{ .Params.section1.action2 }}<br /><ion-icon name="{{ .Site.Params.Footer.phone_icon }}"></ion-icon> 670232195</p>
+                </div>
+            </div>
+        </div>
+
+        <!--featurettes-->
+        <div class="container cont2">
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="featurette-heading">Biomagnetismo</h2>
+                    <p class="text-title">¿Qué es el Biomagnetismo?</p>
+                    <p>El Biomagnetismo o Par Biomagnético es una técnica no invasiva descubierta por el Dr. Isaac Goiz Duran, que mediante pares de imanes ordena el entorno interno y favorece el proceso de la vida. La evidencia clínica de mejora de la salud en muchas personas hace que sea una técnica muy valorada a nivel mundial.</p> 
+                    <p>Es una técnica complementaria y respeta otros tratamientos pautados, alopáticos o naturales.</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="action-text text-center"><br />Pide tu cita con Marisol Alcázar</p>
+                    <p class="text-center"><ion-icon name="{{ .Site.Params.Footer.phone_icon }}"></ion-icon> 670232195</p>
+                    <p class="text-center">Gran Vía Carles III, 65 entl. 2º<br />08028 Barcelona</p>
+                
+                    <!--<img class="featurette-image img-fluid mx-auto" src="" alt="Generic placeholder image">-->
+                </div>
+            </div>
+        </div>
+
+        <div class="container cont2">
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="featurette-image img-fluid mx-auto" src="img/Salas.jpeg" alt="Generic placeholder image">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="featurette-heading">Alquiler de salas</h2>
+                    <p>Aqualumen ofrece un espacio con salas para terapias y cursos y está abierto a profesionales de la salud que deseen acompañar y guiar en el despertar de las capacidades innatas de curación del ser humano.</p> 
+                    <p class="action-text">¿Quieres participar en el Proyecto?</p>
+                    <p class="">{{ .Params.section1.action2 }}<br /><ion-icon name="{{ .Site.Params.Footer.phone_icon }}"></ion-icon> 670232195</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+{{ partial "footer.html" . }}

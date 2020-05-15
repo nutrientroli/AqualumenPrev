@@ -1,0 +1,45 @@
+baseURL = "http://example.org/"
+title = "Aqualumen"
+author = "Raul Garcia Alcazar"
+theme = "aqua"
+languageCode = "es"
+DefaultContentLanguage = "es"
+
+
+[params.contact]
+    address_1 = "Gran Vía Carles III, 65 entl. 2º"
+    address_2 = "08028 Barcelona"
+    phone = "670232195"
+    email = "info@aqualumen.net"
+
+
+
+
+
+
+
+
+
+# migrate a Data
+# partials content
+[params.footer]
+    logo = "img/500x500/test1.jpg"
+    phone_icon = "logo-whatsapp"
+    email_icon = "mail-sharp"
+    return_top = "Volver al inicio"
+    contact_title = "Contacto."
+    privacity_title = "Privacidad"
+    privacity_url = "#"
+    terms_title = "Términos"
+    terms_url = "#"
+
+[params.footer.faqs]
+    title = "FAQS"
+    q1 = "¿Cómo llegar?"
+    a1 = "En la página de contacto hay una explicación."
+    q2 = "¿Cómo concertar una visita?"
+    a2 = "Cada profesional gestiona sus visitas."
+
+[params.navbar]
+    logo = "img/500x500/test1.jpg"
+
