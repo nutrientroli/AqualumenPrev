@@ -1,0 +1,6 @@
+baseURL = "http://example.org/"
+title = "Aqualumen"
+author = "Raul Garcia Alcazar"
+theme = "aqua"
+languageCode = "es"
+DefaultContentLanguage = "es"
