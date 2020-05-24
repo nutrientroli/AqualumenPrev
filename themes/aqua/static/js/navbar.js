@@ -31,3 +31,8 @@ var visibleMenu = function() {
         $('#transmenu').removeClass('transparency');
     }
 }
+
+var closeMenu = function(){
+    $('#navcol-1').collapse('hide');
+    if(forced) forced = !forced;
+}
