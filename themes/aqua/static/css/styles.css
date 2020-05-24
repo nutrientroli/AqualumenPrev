@@ -181,6 +181,10 @@ p, a {
   font-size: 150%;
 }
 
+.nolink {
+  text-decoration: none !important;
+}
+
 
 @media only screen and (max-width: 1200px) {
   .section-header {
