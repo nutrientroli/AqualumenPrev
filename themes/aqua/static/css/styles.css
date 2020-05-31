@@ -185,6 +185,17 @@ p, a {
   text-decoration: none !important;
 }
 
+.padding-noicons {
+  padding-top: 15px;
+}
+
+.padding-contacticon-left {
+  padding-left: 10px;
+}
+.padding-contacticon-right {
+  padding-left: 10px;
+}
+
 
 @media only screen and (max-width: 1200px) {
   .section-header {
