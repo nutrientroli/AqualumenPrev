@@ -42,6 +42,12 @@ body {
   color: #ffffff;
 }
 
+.color-whats {
+  color: #25D366;
+}
+.color-tel {
+  color:#0088CC;
+}
 .text-normal {
   font-weight: 400;
   display: block;
