@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{.Site.BaseURL}}css/styles.css">
         <link rel="icon" href="{{.Site.BaseURL}}img/favicon.png">
         <script src='https://kit.fontawesome.com/a076d05399.js'></script> <!-- icons -->
+        {{ partial "googleanalytics.html" . }}
     </head>
 
     <body>
@@ -121,21 +122,21 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h1 class="title color-orange">Par Biomagnético<br /><span class="text-dubtitle-services">Metodología de la Escuela del Dr. Isaac Goiz Durán</span></h1>
+                                    <h1 class="title color-orange">Par Biomagnético &middot; Biomagnetismo<br /><span class="text-dubtitle-services">Equilibra tu pH y medio interno para recuperar tu salud.</span></h1>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 text-services">
-                                    <p>El Par Biomagnético dentro del Biomagnetismo es una técnica energética no invasiva descubierta por el Dr. Isaac Goiz Duran, que mediante pares de imanes ordena el entorno interno y favorece el proceso de la vida recuperando así la salud.</p>
+                                    <p>El <strong>Par Biomagnético</strong> dentro del <strong>Biomagnetismo</strong> es una técnica energética no invasiva descubierta por el Dr. Isaac Goiz Duran, que mediante pares de imanes equilibra el pH y ordena el entorno interno para favorece el proceso de la vida, recuperando la salud.</p>
                                     <p>La evidencia clínica de mejora de la salud en muchas personas hace que sea una técnica muy valorada a nivel mundial.</p> 
                                     <p>El Par Biomagnético es una técnica integrativa que respeta otros tratamientos pautados, alopáticos o naturales.</p>
-                                    <p><i><span class="color-orange">Profesional</span><br />Marisol Alcázar: parbiomagnetista de la escuela del Dr. Goiz, profesora de Noesiología y Noesiterapia de la escuela del Dr. Escudero y fundadora del Proyecto Aqualumen.</i></p>
+                                    <p><i><span class="color-orange">Profesional</span><br />Marisol Alcázar: parbiomagnetista de la escuela del Dr. Goiz, psiconeuroinmunóloga y fundadora del Proyecto Aqualumen.</i></p>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 align-items-center">
                                     <div class="row">
                                         <div class="col-md-12 text-center">
                                             <p class="text-compressed"><span class="color-orange text-weight-up">PIDE CITA</span><br />presencial</p>
-                                            <p class="text-compressed">Marisol Alcázar<br />Barcelona &middot; Sabadell &middot; Maresme<br /><span class="color-orange text-weight-up"><strong>670232195</strong></span></p>
+                                            <p class="text-compressed">Marisol Alcázar<br />Barcelona &middot; Sabadell<br /><span class="color-orange text-weight-up"><strong>670232195</strong></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -179,15 +180,16 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 text-services">
-                                    <p>Te acompaño a descubrir tu propia forma de cuidarte, despertando tu creatividad y descubriendo los talentos que hay en ti. Con una visión integradora desde lo científico hasta lo holístico, combinando diferentes herramientas como las esencias florales, la reflexoterapia, la astrología terapéutica, la nutrición o las envolturas corporales, entre otras. </p>
-                                    <p>Descubre el placer de escucharte y enfocar el cuidado desde tu propia esencia.</p>
+                                    <p>Crea tu salud desde la presencia, descubre el placer de escuchar, observar y sentir de forma consciente tu interior y conecta con tu esencia. Despierta tu creatividad y tus talentos para crear una <strong>Salud Consciente</strong>, enfoca tu cuidado desde tu propia esencia.</p>
+                                    <p>Con una visión integradora desde lo científico hasta lo holístico, con una metodología propia, combino las esencias florales, la reflexoterapia, la astrología terapéutica, la nutrición y las envolturas corporales, entre otras.</p>
+                                    <p>Desde mi esencia acompaño a tu esencia en este camino.</p>
                                     <p><i><span class="color-orange">Profesional</span><br />Sandra Mulero: enfermera integrativa, terapeuta floral, reflexoterapeuta, formada en astrología terapéutica, enfermera de orientación antroposófica.</i></p>
                                 </div>
                                 <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 align-items-center">
                                     <div class="row">
                                         <div class="col-md-12 text-center">
                                             <p class="text-compressed"><span class="color-orange text-weight-up">PIDE CITA</span><br />presencial y online</p>
-                                            <p class="text-compressed">Sandra Mulero<br />Barcelona &middot; Sant Cugat del Vallès &middot; Maresme<br /><span class="color-orange text-weight-up"><strong>601088883</strong></span></p>
+                                            <p class="text-compressed">Sandra Mulero<br />Barcelona &middot; Sabadell &middot; Vilassar de Mar<br /><span class="color-orange text-weight-up"><strong>601088883</strong></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -205,9 +207,11 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 text-services">
-                                    <p>La Noesiología o conocimiento del pensamiento, nos a porta una sabiduría que permite desarrollar las capacidades innatas del ser humano en cualquier ámbito de la vida. La Noesiterapia se centra en el entrenamiento para recuperar la salud.</p>
-                                    <p>Este conocimiento va dirigido a todos los públicos, ideal iniciarlo en las etapas tempranas de la vida por tanto se recomienda a los padres y educadores. En cuanto a favorecer la salud es de vital importancia facilitar recursos y acompañar a las personas que lo necesiten, así como formar a los profesionales sanitarios, médicos y terapeutas, para mejorar la atención y los resultados clínicos, en partos, intervenciones quirurjicas y en otras especialidades.</p>
-                                    <p><i>A partir de septiembre del 2020 se empezarán a impartir cursos de Noesiología y Noesiterapia en el Centro Aqualumen y en los centros que lo soliciten.</i></p>
+                                    <p>El cerebro es un ordenador biológico que dirige la vida de las personas.</p>
+                                    <p>La <strong>Noesiología</strong> es la ciencia que estudia la influencia del pensamiento en la vida, del griego: NOESIS (acción de pensar) y LOGOS (estudio). La aplicación terapéutica de esta disciplina se ha denominado Noesiterapia que significa curación por el pensamiento. La <strong>Noesiterapia</strong> se centra en los efectos del pensamiento en la salud, tanto a nivel físico como emocional.</p>
+                                    <p>La Noesiología se fundamenta en el poder creador del pensamiento y el aprovechamiento óptimo de las capacidades humanas.</p>
+                                    <p>Este conocimiento va dirigido a todos los públicos, ideal iniciarlo en las etapas tempranas de la vida, por tanto, se recomienda a padres y educadores. En cuanto a favorecer la salud, es de vital importancia facilitar recursos y acompañar a las personas que lo necesiten, así como formar a los profesionales sanitarios, médicos y terapeutas, para mejorar la atención y los resultados clínicos en partos, intervenciones quirurjicas y en otras especialidades.</p>
+                                    <p><i>En otoño del 2020 se empezarán a impartir cursos de Noesiología y Noesiterapia en Aqualumen y en los centros que lo soliciten.</i></p>
                                 </div>
                                 <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 align-items-center">
                                     <div class="row">
